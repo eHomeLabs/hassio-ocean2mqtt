@@ -46,7 +46,8 @@ sauvegardes de Home Assistant.
 - **Clé EnOcean** : choisissez la clé dans la liste.
 - **Nom des topics MQTT** : `name` (ocean2mqtt/Salon) ou `id` (ocean2mqtt/0x0512ABCD).
 - **Niveau du journal** : `debug` pour voir toutes les trames.
-- **Serveur MQTT** : à laisser vide pour utiliser Mosquitto automatiquement.
+- **Serveur MQTT** : à laisser vide pour utiliser Mosquitto automatiquement. Il se
+  modifie aussi dans l'interface (Réglages → Serveur MQTT).
 - **Remote Commissioning** : réglages à distance des produits qui le gèrent. Le
   protocole n'est pas chiffré : le code de sécurité d'un produit passe en clair à la
   radio lors d'un déverrouillage (Ocean2MQTT demande confirmation à chaque fois).
@@ -68,6 +69,15 @@ Documentation complète, produits non supportés, dépannage : le
 
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
+
+## Nouveautés de la 0.2.0b11
+
+- **Clé EnOcean HS ou remplacée** : Ocean2MQTT propose d'écrire dans la nouvelle
+  clé le Base ID de l'ancienne. Les actionneurs la reconnaissent sans réappairage
+  (nombre de changements limité par clé, affiché dans Réglages).
+- **Serveur MQTT et topics modifiables** dans Réglages, avec test de la connexion.
+  Un réglage fait dans l'interface l'emporte sur le Mosquitto détecté
+  automatiquement ; « Revenir au serveur automatique » l'annule.
 
 ## Nouveautés de la 0.2.0b10
 
