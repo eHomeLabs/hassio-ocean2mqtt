@@ -1,0 +1,27 @@
+configuration:
+  serial_port:
+    name: EnOcean stick
+    description: Serial port of the EnOcean USB stick (USB 300, USB 500…). Pick it from the list.
+  topic_name:
+    name: MQTT topic naming
+    description: "name: ocean2mqtt/<device name>; id: ocean2mqtt/<EnOcean ID>."
+  log_level:
+    name: Log level
+    description: "debug logs every telegram received and sent."
+  recom:
+    name: Remote Commissioning
+    description: Remote settings (ReMan / ReCom). The devices' security code is sent in clear over the air when unlocking; disable it if you don't need it.
+  mqtt_host:
+    name: MQTT server (optional)
+    description: Leave empty to use the Mosquitto add-on automatically.
+  mqtt_port:
+    name: MQTT port (optional)
+  mqtt_user:
+    name: MQTT user (optional)
+  mqtt_password:
+    name: MQTT password (optional)
+  web_password:
+    name: Web interface password (optional)
+    description: Only for direct access on port 8080. Access from the Home Assistant sidebar doesn't need it.
+network:
+  8080/tcp: Web interface outside Home Assistant (disabled by default)

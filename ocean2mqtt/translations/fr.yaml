@@ -1,0 +1,27 @@
+configuration:
+  serial_port:
+    name: Clé EnOcean
+    description: Port série de la clé USB EnOcean (USB 300, USB 500…). Choisissez-la dans la liste.
+  topic_name:
+    name: Nom des topics MQTT
+    description: "name : ocean2mqtt/<nom du produit> ; id : ocean2mqtt/<identifiant EnOcean>."
+  log_level:
+    name: Niveau du journal
+    description: « debug » affiche toutes les trames reçues et envoyées.
+  recom:
+    name: Remote Commissioning
+    description: Réglages à distance (ReMan / ReCom). Le code de sécurité des produits passe en clair à la radio lors d'un déverrouillage ; désactivez si vous n'en avez pas besoin.
+  mqtt_host:
+    name: Serveur MQTT (facultatif)
+    description: À laisser vide pour utiliser automatiquement l'add-on Mosquitto.
+  mqtt_port:
+    name: Port MQTT (facultatif)
+  mqtt_user:
+    name: Utilisateur MQTT (facultatif)
+  mqtt_password:
+    name: Mot de passe MQTT (facultatif)
+  web_password:
+    name: Mot de passe de l'interface web (facultatif)
+    description: Uniquement pour l'accès direct par le port 8080. L'accès par la barre latérale de Home Assistant n'en a pas besoin.
+network:
+  8080/tcp: Interface web hors Home Assistant (désactivée par défaut)
