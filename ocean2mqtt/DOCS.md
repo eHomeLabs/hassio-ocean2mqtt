@@ -70,6 +70,11 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b12
+
+- Correction : le bouton « Modifier… » du serveur MQTT n'apparaissait pas dans
+  l'add-on.
+
 ## Nouveautés de la 0.2.0b11
 
 - **Clé EnOcean HS ou remplacée** : Ocean2MQTT propose d'écrire dans la nouvelle
