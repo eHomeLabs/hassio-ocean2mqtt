@@ -70,6 +70,13 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b13
+
+- **Proposer un nouveau produit EnOcean** : dernière tuile de « Ajouter un
+  produit », et lien « Proposer ce produit » pour un émetteur entendu mais inconnu
+  (profil et code fabricant préremplis). Catalogue en ligne des produits
+  compatibles : https://ehomelabs.github.io/Ocean2MQTT/
+
 ## Nouveautés de la 0.2.0b12
 
 - Correction : le bouton « Modifier… » du serveur MQTT n'apparaissait pas dans
