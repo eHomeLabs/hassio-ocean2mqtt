@@ -70,6 +70,12 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b14
+
+- **Ajouter un produit par son identifiant EnOcean** (capteurs et interrupteurs),
+  sans appuyer sur son bouton d'apprentissage : fiche du produit → « Pas d'accès
+  au bouton d'apprentissage ? ».
+
 ## Nouveautés de la 0.2.0b13
 
 - **Proposer un nouveau produit EnOcean** : dernière tuile de « Ajouter un
