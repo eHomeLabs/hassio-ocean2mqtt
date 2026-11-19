@@ -70,6 +70,14 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b25
+
+- **Remote Commissioning → Télécommandes appairées** : nouvelle liste « Ou choisir
+  parmi mes produits » sous l'identifiant. Elle propose les interrupteurs et capteurs
+  déjà appairés ; l'identifiant et le type sont remplis automatiquement (les types
+  refusés par le module sont grisés). Dans la table lue, le nom du produit s'affiche à
+  côté de son identifiant.
+
 ## Nouveautés de la 0.2.0b24
 
 - **Mes produits → vue « Liste »** (bouton Cartes / Liste, façon Zigbee2MQTT) : photo,
