@@ -70,6 +70,11 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b17
+
+- Fenêtres de la fiche produit et de la reprise NodOcean : les onglets et les boutons
+  (« Importer… ») restent toujours visibles, seul le contenu défile.
+
 ## Nouveautés de la 0.2.0b16
 
 - **Actionneur déjà appairé par une autre box (Jeedom…) avec la même clé** : le
