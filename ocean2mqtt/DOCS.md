@@ -70,6 +70,14 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b24
+
+- **Mes produits → vue « Liste »** (bouton Cartes / Liste, façon Zigbee2MQTT) : photo,
+  nom et pièce, ID EnOcean, modèle et marque, EEP, valeurs, signal, dernière vue,
+  disponibilité, alimentation, support, actions (détails, Remote Commissioning,
+  retirer). Recherche, tri par colonne et choix des colonnes, mémorisés dans le
+  navigateur.
+
 ## Nouveautés de la 0.2.0b23
 
 - **Confirmer qu'un produit « Communauté » fonctionne** : fiche du produit → onglet
