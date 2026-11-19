@@ -70,6 +70,16 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b18
+
+- **Remote Commissioning activable/désactivable dans Réglages** (onglet « Remote
+  Commissioning »), sans toucher à la configuration de l'add-on. Ce choix l'emporte
+  sur l'option de l'add-on.
+- **Réglages en onglets** : Langue, Clé EnOcean, Serveur MQTT, Remote Commissioning,
+  Migration et sauvegarde, À propos.
+- **Filtres dans Télégrammes** : recherche, produit, appairés/inconnus, sens, RORG,
+  niveau de signal, répétitions ; l'export CSV ne reprend que les lignes affichées.
+
 ## Nouveautés de la 0.2.0b17
 
 - Fenêtres de la fiche produit et de la reprise NodOcean : les onglets et les boutons

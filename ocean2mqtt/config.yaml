@@ -1,5 +1,5 @@
 name: Ocean2MQTT
-version: "0.2.0b17"
+version: "0.2.0b18"
 slug: ocean2mqtt
 description: Passerelle EnOcean ↔ MQTT multimarque, façon Zigbee2MQTT (bêta)
 url: https://github.com/eHomeLabs/Ocean2MQTT
