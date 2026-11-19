@@ -70,6 +70,13 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b23
+
+- **Confirmer qu'un produit « Communauté » fonctionne** : fiche du produit → onglet
+  Informations → « Confirmer que ce produit fonctionne ». Un retour de test GitHub
+  s'ouvre, prérempli (fiche, version, dernières valeurs, télégrammes). Après contrôle
+  par le mainteneur, la fiche passe en « Validé ».
+
 ## Nouveautés de la 0.2.0b22
 
 - **12 nouveaux produits** (fiches « Communauté », à confirmer sur produit réel) :
