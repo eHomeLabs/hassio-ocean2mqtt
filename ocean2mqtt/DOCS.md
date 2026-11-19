@@ -70,6 +70,12 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b20
+
+- **Remote Commissioning → Télécommandes appairées** : la ligne qui correspond à votre
+  clé EnOcean est marquée **Gateway Control** (c'est par elle qu'Ocean2MQTT pilote le
+  produit). Sa suppression demande une confirmation renforcée.
+
 ## Nouveautés de la 0.2.0b19
 
 - **Les produits gardent leur dernier état après une mise à jour ou un redémarrage**
