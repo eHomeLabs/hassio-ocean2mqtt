@@ -70,6 +70,13 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b21
+
+- **Nouveau produit : Eltako FAFT60** (capteur de température et d'humidité extérieur),
+  premier produit ajouté par le formulaire « Proposer un nouveau produit EnOcean ».
+- **Nouveau profil A5-04-02** : température de -20 à +60 °C et humidité, aussi
+  disponible en profil générique.
+
 ## Nouveautés de la 0.2.0b20
 
 - **Remote Commissioning → Télécommandes appairées** : la ligne qui correspond à votre
