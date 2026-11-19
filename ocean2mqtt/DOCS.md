@@ -70,6 +70,19 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b22
+
+- **12 nouveaux produits** (fiches « Communauté », à confirmer sur produit réel) :
+  EnOcean EOSWA, STM 550 et EMDCA ; Eltako FHD60SB et FPE-1 ; Pressac CO2 /
+  température / humidité ; AFRISO WaterSensor con ; AWAG CO2 (Omnio) ; Thermokon
+  SRG02 ; Trio2sys T2S10020110 (4 canaux avec mesure) et T2S10020118 (16 A) ;
+  Ubiwizz UBICH009 (fil pilote).
+- **Nouveaux profils**, aussi dans la liste générique : A5-07-01, A5-08-01/02/03,
+  A5-30-03, D2-14-41 (multicapteur) et F6-01-01 (bouton-poussoir).
+- **Fiches rangées sous leur marque d'origine** : Eltako FAH60 (ex-SERFAH60, avec le
+  décodage de luminosité Eltako), Afriso 55080 (ex-UBID1220211), Micropelt MICITRV004.
+  Les produits déjà appairés sont repris automatiquement.
+
 ## Nouveautés de la 0.2.0b21
 
 - **Nouveau produit : Eltako FAFT60** (capteur de température et d'humidité extérieur),
