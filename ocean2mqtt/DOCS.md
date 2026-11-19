@@ -70,6 +70,12 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b26
+
+- Fiches produits : corriger la marque ou la référence dans une fiche ne demande plus
+  de renommer ou déplacer le fichier (son chemin reste l'identifiant des produits déjà
+  appairés). Afriso WaterSensor : référence corrigée.
+
 ## Nouveautés de la 0.2.0b25
 
 - **Remote Commissioning → Télécommandes appairées** : nouvelle liste « Ou choisir
