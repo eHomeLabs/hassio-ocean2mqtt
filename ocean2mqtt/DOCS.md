@@ -70,6 +70,13 @@ Documentation complète, produits non supportés, dépannage : le
 Les données (configuration et produits appairés) sont dans le dossier privé de
 l'add-on et sont incluses dans les sauvegardes Home Assistant.
 
+## Nouveautés de la 0.2.0b19
+
+- **Les produits gardent leur dernier état après une mise à jour ou un redémarrage**
+  (température, humidité, état des relais, énergie, dernier message, signal). Ces
+  valeurs sont enregistrées dans `state.json` et republiées au démarrage : Home
+  Assistant ne repasse plus en « inconnu ».
+
 ## Nouveautés de la 0.2.0b18
 
 - **Remote Commissioning activable/désactivable dans Réglages** (onglet « Remote
