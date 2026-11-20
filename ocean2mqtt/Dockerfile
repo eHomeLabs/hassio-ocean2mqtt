@@ -16,6 +16,6 @@ LABEL io.hass.version="${OCEAN2MQTT_VERSION}" \
       io.hass.arch="${BUILD_ARCH}" \
       org.opencontainers.image.source="https://github.com/eHomeLabs/hassio-ocean2mqtt" \
       org.opencontainers.image.description="Add-on Home Assistant Ocean2MQTT" \
-      org.opencontainers.image.licenses="MIT"
+      org.opencontainers.image.licenses="GPL-3.0-only AND MIT"
 
 CMD ["python3", "-u", "/run.py"]
