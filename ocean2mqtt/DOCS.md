@@ -1,4 +1,4 @@
-# Ocean2MQTT (bêta)
+# Ocean2MQTT
 
 Passerelle EnOcean ↔ MQTT multimarque, façon Zigbee2MQTT. Les produits appairés
 apparaissent automatiquement dans Home Assistant grâce à la découverte MQTT.
