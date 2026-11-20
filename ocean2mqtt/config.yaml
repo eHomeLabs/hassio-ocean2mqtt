@@ -1,14 +1,14 @@
 name: Ocean2MQTT
-version: "0.2.0b28"
+version: "0.2.0"
 slug: ocean2mqtt
-description: Passerelle EnOcean ↔ MQTT multimarque, façon Zigbee2MQTT (bêta)
+description: Passerelle EnOcean ↔ MQTT multimarque, façon Zigbee2MQTT
 url: https://github.com/eHomeLabs/Ocean2MQTT
 # Image construite par GitHub Actions (dépôt hassio-ocean2mqtt) : rien à compiler chez vous
 image: ghcr.io/ehomelabs/{arch}-addon-ocean2mqtt
 arch:
   - aarch64
   - amd64
-stage: experimental
+stage: stable
 startup: application
 boot: auto
 init: true
