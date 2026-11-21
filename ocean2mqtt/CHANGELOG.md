@@ -1,3 +1,13 @@
+# 0.2.3
+
+- Public FR/EN device catalog with search, filters, pairing instructions and contribution links.
+- Interface update detection and explicit reload, with HTML cache prevention.
+- Identify generic devices with their real brand/model and photo/manual links, prefilled into test reports.
+- Device diagnostics and decoded application telegram values, including CSV.
+- Existing data, topics and pairing are preserved.
+
+An older interface must load this version once before it can show future update banners.
+
 # 0.2.1
 
 - Complete EEP profiles in telegrams, search and CSV exports.
