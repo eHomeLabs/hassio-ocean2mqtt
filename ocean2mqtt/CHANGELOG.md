@@ -1,3 +1,10 @@
+# 0.2.1
+
+- Complete EEP profiles in telegrams, search and CSV exports.
+- Generic device hardware test reports can create validated brand/model sheets after maintainer review.
+- Twelve generic device illustrations with a “générique” badge, automatically used when a product photo is missing or unavailable.
+- Keeps the existing configuration and device data.
+
 # 0.2.0
 
 - First stable release of the multi-brand EnOcean to MQTT gateway.
