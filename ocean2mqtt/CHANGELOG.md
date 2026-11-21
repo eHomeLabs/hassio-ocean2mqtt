@@ -1,4 +1,4 @@
-# 0.2.2
+# 0.2.3
 
 - Public FR/EN device catalog with search, filters, pairing instructions and contribution links.
 - Interface update detection and explicit reload, with HTML cache prevention.
