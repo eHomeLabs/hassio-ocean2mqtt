@@ -1,3 +1,10 @@
+# 0.2.4
+
+- Add Nexelec INSAFE+ Origin / I870EO (D2-14-30): smoke, temperature, humidity, comfort, battery status and diagnostics.
+- Add the Community product sheet, generic profile, FR/EN labels and manual-ID onboarding instructions.
+- Exclude gateway chip ID and Base ID sender addresses from unknown devices, preserving the raw telegram journal.
+- Existing devices, settings and MQTT topics are preserved.
+
 # 0.2.3
 
 - Public FR/EN device catalog with search, filters, pairing instructions and contribution links.
