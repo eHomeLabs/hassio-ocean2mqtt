@@ -1,3 +1,10 @@
+# 0.2.6
+
+- Add Avidsen 101012 local set point in °C, rounded to half-degree screen steps, retaining the raw value.
+- Conversion is specific to 101012, read-only and independent of room-temperature offsets.
+- Clarify rear-button pairing: long press pairs, short press toggles °C/°F.
+- Existing pairing and settings are preserved; no re-pairing is needed for an existing Avidsen 101012 sheet.
+
 # 0.2.5
 
 - Add Avidsen 101012 and the A5-10-12 profile: temperature, humidity and read-only raw local set point.
