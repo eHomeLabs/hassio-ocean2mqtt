@@ -1,3 +1,10 @@
+# 0.2.5
+
+- Add Avidsen 101012 and the A5-10-12 profile: temperature, humidity and read-only raw local set point.
+- Add Avidsen 600104, 600102, 970221, 600105, 600106 and 970292 with FR/EN pairing instructions.
+- Products remain Community pending hardware validation; undocumented extensions are not inferred.
+- Existing devices, settings, pairing and MQTT topics are preserved.
+
 # 0.2.4
 
 - Add Nexelec INSAFE+ Origin / I870EO (D2-14-30): smoke, temperature, humidity, comfort, battery status and diagnostics.
